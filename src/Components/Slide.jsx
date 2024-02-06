@@ -7,15 +7,13 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import { Pagination, Navigation } from 'swiper/modules';
-import UseMediaQuery from "../hooks/UseMediaQuery";
+import UseMediaQuery from "../hooks/UseMediaQuery.jsx";
 import { Link } from "react-router-dom";
 
 function Slide({data , slides , blogSlides}) {
     const {w} = UseMediaQuery();
     const [slidesPerView , setSlidesPerView] = useState(1.5);
     const [blogSlidePerView , setBlogSlidePerView] = useState(1.5);
-
-    console.log(data)
 
     useEffect(() => {
         if (w < 501) {

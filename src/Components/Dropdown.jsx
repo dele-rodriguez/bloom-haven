@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import UseMediaQuery from "../hooks/useMediaQuery";
+import UseMediaQuery from "../hooks/UseMediaQuery.jsx";
 
 function Dropdown ({header , linkName}) {
     const [collaspe , setCollaspe] = useState(true);

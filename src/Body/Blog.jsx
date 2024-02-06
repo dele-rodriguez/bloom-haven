@@ -1,5 +1,5 @@
 import React , {useState , useMemo} from "react";
-import { blogs } from "../data";
+import { blogs } from "../data.js";
 
 function Blog() {
 

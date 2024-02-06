@@ -1,8 +1,8 @@
 import React, { useMemo, useRef, useState , useEffect } from 'react';
-import { shopData , occasions , types , colors } from '../data';
-import CheckDropdown from '../Components/CheckDropdown';
-import UseMediaQuery from '../hooks/useMediaQuery';
+import { shopData , occasions , types , colors } from '../data.js';
+import UseMediaQuery from "../hooks/UseMediaQuery.jsx";
 import { Link } from 'react-router-dom';
+import CheckDropdown from "../Components/CheckDropdown.jsx"
 
 function Shop() {
     const {w} = UseMediaQuery();

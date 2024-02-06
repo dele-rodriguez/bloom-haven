@@ -1,5 +1,5 @@
 import React from "react";
-import {team , reasons} from "../data"
+import {team , reasons} from "../data.js"
 
 
 

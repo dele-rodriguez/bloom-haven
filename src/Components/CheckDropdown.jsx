@@ -1,6 +1,6 @@
 import React from "react";
 import { useState ,  useEffect  } from "react";
-import UseMediaQuery from "../hooks/useMediaQuery";
+import UseMediaQuery from "../hooks/UseMediaQuery.jsx";
 
 function CheckDropdown ({ check , setCheck , checkFilters , dropdown}) {
     const {w} = UseMediaQuery();

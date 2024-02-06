@@ -1,9 +1,9 @@
 import React, { useState , useEffect } from "react"
 import { Link } from "react-router-dom";
-import Slide from "../Components/Slide";
-import UseMediaQuery from "../hooks/UseMediaQuery";
-import {choice , featureSlides , blogSlides} from "../data";
-import ReviewSlide from "../Components/ReviewSlide";
+import Slide from "../Components/Slide.jsx";
+import UseMediaQuery from "../hooks/UseMediaQuery.jsx";
+import {choice , featureSlides , blogSlides} from "../data.js";
+import ReviewSlide from "../Components/ReviewSlide.jsx";
 
 function Home() {
     const [phoneScreen , setPhoneScreen] = useState()

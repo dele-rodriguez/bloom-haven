@@ -1,6 +1,6 @@
 import React from "react"
 import { useState } from "react";
-import NavLink from "./Navlink";
+import NavLink from "./Navlink.jsx";
 
 function Header() {
 

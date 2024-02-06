@@ -1,8 +1,8 @@
 import React , {useMemo, useState} from "react";
 import { useParams , useLocation } from "react-router-dom";
-import { reviews, shopData } from "../data";
-import ReviewSlide from "../Components/ReviewSlide";
-import Slide from "../Components/Slide";
+import { reviews, shopData } from "../data.js";
+import ReviewSlide from "../Components/ReviewSlide.jsx";
+import Slide from "../Components/Slide.jsx";
 
 
 function Product() {

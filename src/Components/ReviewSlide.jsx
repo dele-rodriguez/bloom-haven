@@ -1,5 +1,5 @@
 import React from "react";
-import { reviews } from "../data";
+import { reviews } from "../data.js";
 import { useState , useEffect } from "react";
 import { Swiper , useSwiper , SwiperSlide } from 'swiper/react';
 
